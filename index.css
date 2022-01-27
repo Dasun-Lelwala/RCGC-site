@@ -37,21 +37,15 @@ a{
     text-shadow:red 1px 1px 5px;
 }
 body{
-    position:relative;
-    background-image: url("Images/rcg.jpg");
-    background-size: cover;
-    background-color:rgba(0, 0, 255, 0.226);
-}
-#background{
-    background-image: url("Images/rcg.jpg");
-    position:relative;
-    z-index: 1;
+    background-image: url("Images/bg5.jpg");
     background-size:cover;
 }
+
 #hero{
     height:100vh;
     z-index: 5;
     background-color:rgba(6, 6, 165, 0.603);
+    display:flex;
     padding: 100px;
 }
 .title{
@@ -103,4 +97,7 @@ body{
 #contents ul li:hover{
     background-color: rgba(9, 9, 185, 0.486);
     text-shadow:red 1px 1px 5px;
+}
+#img{
+    height:30%;
 }
