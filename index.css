@@ -86,9 +86,7 @@ body{
     transform-origin: top;
     transition:500ms;
 }
-#contents ul{
-    
-}
+
 #dropdown:hover #contents{
     transform:scale(100%);
     
