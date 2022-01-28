@@ -3,10 +3,10 @@
     padding:0;
 }
 .logo{
-    width:80px;
+    width:75px;
 }
 #nav {
-    background-color: rgba(15, 15, 128, 0.808);
+    background-color: rgba(12, 12, 95, 0.808);
     padding:10px 20px;
     display:flex;
     justify-content: space-between;
@@ -22,8 +22,8 @@ a{
     display:inline-block;
     margin:10px;
     font-family: Arial, Helvetica, sans-serif;
-    padding:5px;
-    font-size:18px;
+    padding:10px;
+    font-size:22px;
     cursor: pointer;
     border:3px solid transparent;
     border-radius: 4px;
@@ -99,5 +99,5 @@ body{
     text-shadow:red 1px 1px 5px;
 }
 #img{
-    height:30%;
+    height:50%;
 }
