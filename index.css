@@ -101,3 +101,150 @@ body{
 #img{
     height:50%;
 }
+footer{
+    background-color: rgb(1, 5, 27);
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h3{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    text-align:center;
+    letter-spacing: 2px;
+}
+footer h4{
+    color:white;
+    font-family: 'Karla', sans-serif;
+    font-size:14px;
+    text-align: center;
+    letter-spacing:2px;
+    padding:5px;
+}
+
+#startText{
+    height: fit-content;
+    
+}
+#layer{
+    height:fit-content;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*slideshow*/
+
+
+  
+  .mySlides {
+    display: none
+  }
+  img {
+    vertical-align: middle;
+  }
+  .slideshow-container {
+    max-width: 528px;
+    height: 297px;
+    overflow:hidden;
+    position:relative;
+    margin:auto;
+    border-radius: 10px;
+  }
+  
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  /* Caption text */
+  .text {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  /* The dots/bullets/indicators */
+  
+  .active,
+  .dot:hover {
+    background-color: #111111;
+  }
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 11px
+    }
+  }
