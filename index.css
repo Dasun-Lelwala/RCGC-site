@@ -95,7 +95,7 @@ body{
 }
 #contents{
     background-color: rgba(255, 255, 255, 0.466);
-    
+    visibility: hidden;
     position:absolute;
     width:100%;
     box-shadow: 0 10px 10px 0 rgba(0,0,0,0.4);
@@ -109,6 +109,7 @@ body{
 }
 
 #dropdown:hover #contents{
+    visibility:visible;
     transform:scale(100%);
     
 }
