@@ -50,6 +50,7 @@ a{
 body{
     background-image: url("Images/bg5.jpg");
     background-size:cover;
+    width:100%;
 }
 #tint{
   background-color:rgba(6, 6, 165, 0.603);
@@ -67,14 +68,12 @@ body{
     font-family: sans-serif;
     text-align:left;
     font-size: 4vw;
-    text-shadow:black 2px 2px 8px;
     cursor:default;
     text-shadow:red 3px 3px 8px;
-    transition:600ms;
 }
 #subline{
     color:white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     font-size:1.5vw;
     padding-top:10px;
 }
@@ -83,10 +82,39 @@ body{
     margin-right:10%;
     border-left:4px solid white;
     padding-left:4%;
-    
-    transition:ease-in-out 500ms;
 }
+#startText h3{
+  color:white;
+  font-family:sans-serif;
+  text-align:left;
+  font-size:2.4vw;
+  cursor:default;
+  text-shadow:red 2px 2px 8px;
 
+}
+#goal{
+  color:white;
+  text-align:center;
+  padding:10px 30px;
+  width:fit-content;
+  margin:auto;
+  border-radius: 10px;
+  box-shadow: #111111 3px 3px 8px;
+  background-color: rgba(162, 162, 226, 0.137);
+}
+#goal h2{
+  color:white;
+  font-family:'Roboto', sans-serif;
+  font-size: 3.5vw;
+  cursor:default;
+  text-shadow:rgb(0, 0, 0) 3px 3px 8px;
+}
+#goal p{
+  color:white;
+  font-family:'Rajdhani', sans-serif;
+  font-size:1.5vw;
+  padding-top:15px;
+}
 #dropdown{
     display:inline-block;
     position:relative;
