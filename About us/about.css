@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+}
+.logo{
+    width:75px;
+}
+#intro{
+  display:flex;
+  align-items:center;
+}
+#intro h2{
+  padding:15px;
+  font-family:'Roboto', sans-serif;
+  font-size:28px;
+  color:white;
+  text-shadow: #0528ec 2px 2px 4px;
+}
+#nav {
+    background-color: rgba(12, 12, 95, 0.808);
+    padding:10px 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#menu .mainMenu{
+    display:inline-block;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+    font-size:22px;
+    cursor: pointer;
+    border-radius: 6px;
+
+    transition:700ms;
+}
+
+#menu .mainMenu:hover{
+    background-color: rgba(245, 245, 245, 0.090);
+    transform:  scale(110%);
+    text-shadow:red 1px 1px 5px;
+    box-shadow: #111111 1px 1px 5px;
+}
+#dropdown{
+    display:inline-block;
+    position:relative;
+    height:fit-content; 
+    cursor: pointer;
+}
+#contents{
+    background-color: rgba(255, 255, 255, 0.466);
+    visibility: hidden;
+    position:absolute;
+    width:100%;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.4);
+    border-radius:20px;
+    padding:20px;
+    font-size:15px;
+    transform:scale(0%);
+    transform-origin: top;
+    transition: 500ms;
+    z-index: 20;
+}
+
+#dropdown:hover #contents{
+    visibility:visible;
+    transform:scale(100%);
+    
+}
+#contents ul li{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:18px;
+    padding:10px;
+    text-align: center;
+    transition:500ms;
+    border-radius:10px;
+}
+#contents ul li:hover{
+    background-color: rgba(9, 9, 185, 0.075);
+    text-shadow:red 2px 2px 8px;
+    box-shadow: #111111 1px 1px 6px;
+}
+footer{
+    background-color: rgb(1, 5, 27);
+    height:150px;
+    display:flex;
+    justify-content: center;
+}
+footer h3{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px;
+    text-align:center;
+    letter-spacing: 2px;
+}
+footer h4{
+    color:white;
+    font-family: 'Karla', sans-serif;
+    font-size:14px;
+    text-align: center;
+    letter-spacing:2px;
+    padding:5px;
+}
+#media img{
+  width:25px;
+  transition:200ms;
+}
+#media img:hover{
+  filter:brightness(0.6)
+}
+#fb img{
+  width:35px;
+  height:35px;
+}
+#fb a{
+    margin:0;
+}
+#media li{
+  display:inline-block;
+}
+footer p{
+  color:white;
+  text-align: center;
+  margin-top:30px;
+}
+#media{
+  display:block;
+  margin:auto;
+  width:fit-content;
+  margin-bottom:20px;
+}
