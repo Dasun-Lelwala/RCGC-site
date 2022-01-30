@@ -115,15 +115,9 @@ footer h4{
 #media img:hover{
   filter:brightness(0.6)
 }
-#fb img{
-  width:35px;
-  height:35px;
-}
-#fb a{
-    margin:0;
-}
 #media li{
   display:inline-block;
+  padding:4px;
 }
 footer p{
   color:white;
@@ -135,4 +129,78 @@ footer p{
   margin:auto;
   width:fit-content;
   margin-bottom:20px;
+}
+
+/*About page css*/
+
+body{
+  background-image: url("Images/bg.jpg");
+  background-size: cover;
+  width:100%;
+}
+
+main{
+  background-color:rgba(6, 6, 165, 0.603);
+  height: 100%;
+  padding:20px;
+}
+#tint{
+  width:60%;
+  margin:auto;
+}
+.placeholder{
+  width:85%;
+  z-index: 5;
+  margin:auto;
+  margin-top:5vh;
+  height:7px;
+  background-color: #11111163;
+  border-radius:10px;
+}
+#tint h1{
+  height:100%;
+  color:white;
+  font-family: sans-serif;
+  text-align:center;
+  font-size: 4vw;
+  cursor:default;
+  text-shadow:red 3px 3px 8px;
+  padding-top:20px;
+  width: fit-content;
+  margin:auto;
+}
+section{
+  text-align:center;
+  margin:40px auto;
+  background-color: #11111149;
+  border-radius:20px;
+  padding:10px;
+  box-shadow: #111111 3px 3px 8px;
+}
+section h2{
+  color:white;
+  font-family:'Roboto', sans-serif;
+  font-size: 3.5vw;
+  padding:10px;
+  text-shadow: #111111 2px 2px 8px;
+}
+section p{
+  color:white;
+  font-family:'Rajdhani', sans-serif;
+  font-size:1.5vw;
+  padding-top:15px;
+}
+section ul{
+  color:white;
+  font-family:"Karla";
+  font-size:1.5vw;
+  width: fit-content;
+  margin:auto;
+  list-style: inside square;
+}
+section li{
+  width:fit-content;
+  padding:5px;
+  font-style:italic;
+
 }
