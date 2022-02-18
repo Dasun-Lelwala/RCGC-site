@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Richmond College Gavel Club</title>
+    <title>Contact Us | Richmond College Gavel Club</title>
     <link rel="icon" type="image/x-icon" href="Images/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header id="nav">
@@ -43,41 +43,24 @@
             <li class ="mainMenu"><a href="#">Contact</a></li>
         </ul>
     </header>
+    
     <main>
-        <div id="tint">
-            <h1>About Us</h1>
-            <div class = "placeholder"></div>
-            <section>
-                <h2>About Toastmasters</h2>
-                <p>Toastmasters International is a nonprofit educational organisation that 
-                    teaches public speaking and leadership skills through a worldwide network of clubs.
-                </p>
-                <br>
-                <p>Toastmasters began as a series of speaking clubs organized by Ralph C. Smedley.
-                    Smedley saw a need for the men in the community to learn how to
-                    speak, conduct meetings, plan programs and work on committees, and he wanted to help them.</p>
-                <br>
-                <p>The first-ever meeting was held in 1924. And Toastmasters has been teaching people to 
-                    improve their skills in leading and speaking on an international scale. </p>
-            </section>
-            <section>
-                <h2>Gavel Clubs</h2>
-                <p>Gavel clubs are a way of providing the Toastmasters experience to groups who may be ineligible for regular membership due to age, or other circumstances. </p>
-                <br>
-                <p>Following similar Toastmasters club meeting protocols, Gavel clubs use club officer titles and education manuals. </p>
-            </section>
-            <section>
-                <h2>Richmond College Gavel Club</h2>
-                <p>Gavel Clubs were first introduced to Richmond College in 2016. Meetings were held on the school premises for a year till 2017.</p>
-                <br>
-                <p>But in 2017, the club became inactive for unavoidable reasons. The meetings stopped and there was silence for two years to come. </p>
-                <br>
-                <p>In 2019, the club started again with a new Executive Committee to lead. Weekly meetings were held at the school premises. New CC and CL manuals were distributed among the members. But the easter attacks stopped the meetings for a while.</p>
-                <br>
-                <p>The next year, 2020, was another troublesome one. The COVID pandemic forced the meetings to be stopped. But through the efforts of the Executive Committee, the meetings continued via Zoom.</p>
-            </section>
+        <div id = "box">
+            <h1 id='title'>Contact Us</h1>
+            <form action="https://formsubmit.co/dasunlelwala@gmail.com" method="POST" id="form">
+                <input type="text" name="name" placeholder="Name" required id="name" class="field">
+                <input type="email" name="email" placeholder="Email" required id="email" class="field">
+                <textarea placeholder="Your Message" id="msg" name="message" rows="10" required class="field"></textarea>
+                <input type="hidden" name="_cc" value="awdarika@gmail.com">
+                <input type="hidden" name="_template" value="box">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="Thank you page/thankyou.html"> 
+                <input type="hidden" name="_subject" value="New Submission from RCGC site">
+                <button type="submit">Send</button>
+           </form>
         </div>
     </main>
+
     <footer>
         <div>
              <p>Follow us on Social Media</p>
