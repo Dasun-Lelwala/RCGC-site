@@ -19,12 +19,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header id="nav">
         <div id="intro">
+            <div id="brand">
             <img src="Images/logo.png" alt="" class = "logo">
             <h2>RCGC</h2>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+        </div>
+        <div id="mobile-menu">
+            <a href="../index.html">Home</a>
+            <a href="../About us/about.html">About</a>
+            <a href="../Members/members.html">Members</a>
+            <a href="../Meetings/meetings.html">Meetings</a>
+            <a href="../Speeches/speeches.html">Speeches</a>
+            <a href="contact.html">Contact</a>
         </div>
         
         <ul id="menu">
@@ -73,5 +87,16 @@
         <h4>©RCGC2022</h4>
         </div>
     </footer>
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("mobile-menu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    </script>
 </body>
 </html>

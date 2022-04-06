@@ -22,7 +22,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    height:60px;
+    height:fit-content;
 }
 a{
     text-decoration: none;
@@ -209,3 +209,74 @@ button:hover{
     margin-bottom: 20px;
     text-shadow: #111 2px 2px 8px;
 }
+
+
+  /*on tabs and other similar sized screens*/
+  @media only screen and (max-width:780px){
+    .mainMenu a {
+      font-size: 2.4vw;
+    }
+    #intro h2{
+      font-size: 20px;
+      padding:10px;
+    }
+  }
+
+
+
+  #mobile-menu{
+    display:none;
+  }
+  #mobile-menu a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    background-color: rgb(36, 33, 33);
+    font-family: arial;
+  }
+  #mobile-menu a:hover{
+    background-color: #251313;
+  }
+  
+  /* Style the hamburger menu */
+  #intro a.icon {
+    background: black;
+    display: none;
+    padding:10px;
+    background-color: transparent;
+    font-size: 20px;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  #mobile-menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+#brand{
+  display:flex;
+  align-items:center;
+}
+
+  @media only screen and (max-width:640px){
+    #menu{
+      display:none;
+    }
+    #nav{
+      display:block;
+    }
+    #nav{
+      padding:0;
+    }
+    #intro{
+      justify-content: space-between;
+      padding:5px 3vw;
+    }
+    #intro a.icon{
+      display:block;
+    }
+  }
+  
