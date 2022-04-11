@@ -220,6 +220,18 @@ button:hover{
       font-size: 20px;
       padding:10px;
     }
+    #box h1{
+      font-size: 5.5vw;
+    }
+    input {
+      font-size: 2.2vw;
+    }
+    #msg{
+      font-size:2.2vw;
+    }
+    button{
+      font-size:2vw;
+    }
   }
 
 
@@ -277,6 +289,19 @@ button:hover{
     }
     #intro a.icon{
       display:block;
+    }
+
+    #box h1{
+      font-size:10vw;
+    }
+    input{
+      font-size:4.5vw;
+    }
+    #msg{
+      font-size:4.5vw;
+    }
+    button{
+      font-size:4vw;
     }
   }
   

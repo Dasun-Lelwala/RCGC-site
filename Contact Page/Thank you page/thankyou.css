@@ -183,11 +183,24 @@ h3{
   /*on tabs and other similar sized screens*/
   @media only screen and (max-width:780px){
     .mainMenu a {
-      font-size: 2.4vw;
+      font-size: 2.3vw;
     }
     #intro h2{
       font-size: 20px;
       padding:10px;
+    }
+
+    #box{
+      width:60%;
+    }
+    h1{
+      font-size:4vw;
+    }
+    h2{
+      font-size:2vw;
+    }
+    h3{
+      font-size:1.4vw;
     }
   }
 
@@ -246,6 +259,21 @@ h3{
     }
     #intro a.icon{
       display:block;
+    }
+
+
+    #box{
+      width:90%;
+    }
+
+    h1{
+      font-size:6.5vw;
+    }
+    h2{
+      font-size:3vw;
+    }
+    h3{
+      font-size:2vw;
     }
   }
   
